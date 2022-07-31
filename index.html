@@ -6,33 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grab - Login</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <section class="right-side">
-        <div class="back-logo-container">
+    <div class="main-container">
+        <section class="right-side-back-logo-container">
             <img src="./assets/undraw_interview_rmcf.svg" alt="2 pessoas apertando as mãos">
-        </div>
-    </section>
+        </section>
 
-    <section class="left-side">
-        <div class="login-container">
-            <div class="front-logo-container">
+        <section class="left-side-login-container">
+            <div class="front-logo-input-container">
                 <img src="./assets/logo-grab.svg" alt="Logo da Grab">
-            </div>
-            <div class="login-fields">
-                <form action="/" method="post">
-                    <input type="text">
-                    <input type="password" name="" id="">
-                    <button type="submit">Entrar</button>
-                </form>
+                <div class="login-fields">
+                    <form action="/" method="post">
+                        <div class="input-container">
+                            <span class="material-icons">
+                                alternate_email
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div class="input-container">
+                            <span class="material-icons">
+                                lock
+                            </span>
+                            <input type="password" name="" id="">
+                        </div>
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
             </div>
             <div class="password-recover">
                 <p>Problemas para entrar?</p>
                 <a href="#">Clique aqui</a>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
 </body>
 
