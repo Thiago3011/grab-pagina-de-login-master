@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grab - Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -24,15 +24,15 @@
                             <span class="material-icons">
                                 alternate_email
                             </span>
-                            <input type="text" placeholder="email@exemplo.com">
+                            <input type="text" placeholder="email@exemplo.com" id="email">
                         </div>
                         <div class="input-container">
                             <span class="material-icons">
                                 lock
                             </span>
-                            <input type="password">
+                            <input type="password" id="password">
                         </div>
-                        <button type="submit">Entrar</button>
+                        <button type="submit" id="btn-entrar">Entrar</button>
                     </form>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             </div>
         </section>
     </div>
-
+    <script src="./public/script.js" type="module"></script>
 </body>
 
 </html>
