@@ -96,6 +96,7 @@ body {
     outline: none;
     color: white;
     margin-left: 12px;
+    width: 100%;
 }
 
 .input-container input::placeholder {
@@ -152,3 +153,21 @@ body {
     text-align: left;
     transition: opacity 0.8s;
 }
+
+@media ( max-width: 900px ) {
+    .right-side-back-logo-container {
+        display: none;
+    }
+
+    .left-side-login-container {
+        width: 100%;
+    }
+
+    .front-logo-input-container {
+        width: 90%;
+    }
+
+    .password-recover {
+        width: 100%;
+    }
+  }
